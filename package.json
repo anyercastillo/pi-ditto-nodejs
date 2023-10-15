@@ -1,0 +1,23 @@
+{
+  "name": "pi-ditto-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anyercastillo/pi-ditto-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anyercastillo/pi-ditto-nodejs/issues"
+  },
+  "homepage": "https://github.com/anyercastillo/pi-ditto-nodejs#readme",
+  "dependencies": {
+    "@dittolive/ditto": "^4.4.2",
+    "properties-reader": "^2.3.0"
+  }
+}
