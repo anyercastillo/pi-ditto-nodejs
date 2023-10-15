@@ -18,6 +18,7 @@
   "homepage": "https://github.com/anyercastillo/pi-ditto-nodejs#readme",
   "dependencies": {
     "@dittolive/ditto": "^4.4.2",
+    "onoff": "^6.0.3",
     "properties-reader": "^2.3.0"
   }
 }
