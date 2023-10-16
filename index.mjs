@@ -59,7 +59,7 @@ const main = async () => {
     }
   };
 
-  setInterval(readWriteIO, 100);
+  setInterval(readWriteIO, 1000);
 }
 
 main();
