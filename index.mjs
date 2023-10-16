@@ -36,7 +36,7 @@ const main = async () => {
 
   liveQuery = collection.findByID(DEMO_DOC_ID).observeLocal((doc, event) => {    
     if (doc === null) return;
-
+    console.log(doc.value);
     green = doc.value["green"];
     LED_GREEN.writeSync(green);
   });
